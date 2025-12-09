@@ -31,27 +31,3 @@ mygtukasTaskB.addEventListener('click', function () {   //funkcijos sąlygos apr
 
 
 
-
-
-
-
-
-// const divukasTask7 = document.querySelector('div.task7-square-div');
-
-// let isBlue = false;
-
-// divukasTask7.addEventListener('click', function () {
-//     if (isBlue) {
-//         divukasTask7.style.border = '4px solid dodgerblue';
-//         divukasTask7.style.backgroundColor = '#1e8fffb0';
-//     } else {
-//         divukasTask7.style.border = '4px solid crimson';
-//         divukasTask7.style.backgroundColor = '#dc143cb0';
-//     }
-
-//     isBlue = !isBlue;
-// });
-
-
-
-// .task-b-button
