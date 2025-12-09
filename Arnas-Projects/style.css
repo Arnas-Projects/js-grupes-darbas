@@ -1,0 +1,21 @@
+
+
+button.task-b-button {
+    margin: 10px 25px 10px 50px;
+    padding: 5px 5px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+    transition: all 0.3s ease;
+    text-transform:capitalize;
+    letter-spacing: 2px;
+
+}
