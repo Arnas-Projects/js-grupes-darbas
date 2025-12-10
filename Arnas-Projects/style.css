@@ -1,6 +1,6 @@
-body {
+/* body {
     background-color: #444;
-}
+} */
 
 button.arnas-b-button {
     margin: 10px 25px 10px 50px;
@@ -30,7 +30,6 @@ div.arnas-f-main-div {
 }
 
 label.arnas-f-label {
-    color: white;
     margin-right: 25px;
 }
 
