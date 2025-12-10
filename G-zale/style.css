@@ -1,7 +1,8 @@
-  .xo-widget {
+    .xo-widget {
     display: inline-flex;
     gap: 16px;
     margin: 20px 0;
+    padding-left: 40px;
   }
 
   .xo-widget button {
@@ -16,10 +17,12 @@
     transition: all 0.15s ease-in-out;
   }
 
+  /* Pirmas mygtukas – mėlynas */
 .btnX {
     background: #0077ff;
   }
 
+  /* Antras mygtukas – oranžinis */
 .btnO {
     background: #ff6b00;
   }
@@ -33,3 +36,50 @@
     transform: translateY(0);
     box-shadow: none;
   }
+
+  /* ============ */
+
+
+.color-box-widget {
+  padding:40px;
+  display: inline-block; /* kad neužimtų viso pločio */
+}
+
+/* Valdikliai */
+.cbw-controls {
+  display: flex;
+  gap: 100px;
+  margin-bottom: 12px;
+}
+
+.cbw-controls label {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cbw-controls input[type="color"] {
+  width: 100px;
+  height: 45px;
+  padding: 0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Kvadratas */
+.cbw-square {
+  width: 300px;
+  height: 180px;
+  background-color: #3498db;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #0003;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: bold;
+
+  margin: 10px 0;
+}
