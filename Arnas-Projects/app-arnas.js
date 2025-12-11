@@ -14,14 +14,14 @@ let isCircle = false;  // nurodau, kad kintamasis yra false tam, kad galėčiau 
 mygtukasTaskB.addEventListener('click', _ => {   //funkcijos sąlygos aprašymas
 
     if (isCircle) {  // jei kintamasis yra TRUE
-        mygtukasTaskB.style.width = '100px';    // po mygtuko paspaudimo pakeičiu mygtuko formą
-        mygtukasTaskB.style.height = '40px';
+        mygtukasTaskB.style.width = '200px';    // po mygtuko paspaudimo pakeičiu mygtuko formą
+        mygtukasTaskB.style.height = '70px';
         mygtukasTaskB.style.borderRadius = '10px';
 
     } else {
 
-        mygtukasTaskB.style.width = '100px';  // po sekančo mygtuko click, atstatau formą į originalią (originalas aprašytas .css faile)
-        mygtukasTaskB.style.height = '100px';
+        mygtukasTaskB.style.width = '200px';  // po sekančo mygtuko click, atstatau formą į originalią (originalas aprašytas .css faile)
+        mygtukasTaskB.style.height = '200px';
         mygtukasTaskB.style.borderRadius = '50%';
     }
 
@@ -45,6 +45,60 @@ const valueDiv = document.querySelector('div.arnas-f-div');  // susirandam iš D
 const sliderFunction = rangeInput.addEventListener('input', eventas => {  // sukuriame slider input'o addEventListener funkciją
     valueDiv.textContent = eventas.target.value;  // nurodome, kad div tage slankiojant sliderį divo teksto reikšmė keisis pagal tą sliderį
 });
+
+
+
+// --------------------------------------------------------------------------
+
+function rand(min, max) {
+  const minCeiled = Math.ceil(min);
+  const maxFloored = Math.floor(max);
+  return Math.floor(Math.random() * (maxFloored - minCeiled + 1) + minCeiled);
+}
+
+function randomColor() {
+  return (
+    "#" +
+    Math.floor(Math.random() * 16777215)
+      .toString(16)
+      .padEnd(6, "0")
+  );
+}
+
+const bodyElement = document.querySelector(".tasks-section");
+
+// const sectionElement = document.createElement("section");
+
+// bodyElement.appendChild(sectionElement);
+
+// bodyElement.style.backgroundColor = '#E5D9F2';
+// bodyElement.style.margin = 0;
+// bodyElement.style.width = "100vw";
+// bodyElement.style.height = "100vh";
+// bodyElement.style.position = "relative";
+// bodyElement.style.backgroundSize = "cover";
+// bodyElement.style.backgroundAttachment = "fixed";
+
+
+for (let i = 0; i < 1444; i++) {
+
+  let size = rand(44, 144);
+
+  let divCircle = document.createElement("div");
+
+  divCircle.style.width = size + "px";
+  divCircle.style.height = size + "px";
+  divCircle.style.borderRadius = "50%";
+  divCircle.style.backgroundColor = randomColor();
+  divCircle.style.opacity = 0.15;
+  divCircle.style.position = 'absolute';
+  divCircle.style.top = rand(0, document.body.scrollHeight) + "px";
+  divCircle.style.left = rand(0, document.body.scrollWidth) + "px";
+  divCircle.style.zIndex = "-1";
+
+
+  bodyElement.appendChild(divCircle);
+}
 
 
 
