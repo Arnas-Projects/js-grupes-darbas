@@ -1,20 +1,20 @@
 #mygtukas {
-    padding: 25px 35px;
-    font-size: 60px;
-    border: none;
-    border-radius: 15px;
-    background: #026265;
-   /* background: linear-gradient(145deg, #026265, #06c0ca);*/
-    color: rgb(162, 234, 242);
-    cursor: pointer;
-    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
-    transition: all 0.1s ease;
+  padding: 25px 35px;
+  font-size: 60px;
+  border: none;
+  border-radius: 15px;
+  background: #026265;
+  /* background: linear-gradient(145deg, #026265, #06c0ca);*/
+  color: rgb(162, 234, 242);
+  cursor: pointer;
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+  transition: all 0.1s ease;
 }
 
 
 #mygtukas:active {
-    transform: translateY(6px) translateX(2px) rotateX(2deg);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transform: translateY(6px) translateX(2px) rotateX(2deg);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .input1,
@@ -27,9 +27,9 @@
   box-sizing: border-box;
   border-radius: 10px;
 
-  background-color: rgba(255, 255, 255, 0.6); 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);   
-  border: 1px solid rgba(0, 0, 0, 0.1);       
+  background-color: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .input1 {
@@ -44,4 +44,9 @@
   align-items: center;
 }
 
-
+#rezultatas {
+  margin-top: 6px;
+  color: #1a1919;
+  font-size: 20px;
+  
+}
