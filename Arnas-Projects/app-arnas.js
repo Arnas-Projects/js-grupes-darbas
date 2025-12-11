@@ -4,7 +4,8 @@
 // Task b ---------------------------------------------------------------------------------------------------
 // Sukurti mygtuką, kurį paspaudus jo forma pasikeičia į apskritimą, 
 // o paspaudus dar kartą grįžta į pradinę formą;
-console.log('\nTask b');
+
+// console.log('\nTask b');
 
 
 const mygtukasTaskB = document.querySelector('button.arnas-b-button');  // Susirandu button'ą iš DOM'o (kitaip tariant HTML'o)
@@ -37,7 +38,8 @@ mygtukasTaskB.addEventListener('click', _ => {   //funkcijos sąlygos aprašymas
 // Sukurti div elementą, kuriame būtų atvaizduojama 
 // rage tipo elemento reikšmė (keičiant range slankiklio 
 // padėtį reikšmė turi taip pat atitinkamai keistis);
-console.log('\nTask f');
+
+// console.log('\nTask f');
 
 const rangeInput = document.querySelector('input.arnas-f-input');  // susirandam iš DOM'o input slider'į
 const valueDiv = document.querySelector('div.arnas-f-div');  // susirandam iš DOM'o divą, kuriame bus slider'io reikšmė
@@ -49,6 +51,7 @@ const sliderFunction = rangeInput.addEventListener('input', eventas => {  // suk
 
 
 // --------------------------------------------------------------------------
+// background stilius - bubbles
 
 function rand(min, max) {
   const minCeiled = Math.ceil(min);
