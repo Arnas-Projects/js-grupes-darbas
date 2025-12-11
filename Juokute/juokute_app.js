@@ -1,17 +1,17 @@
 // d. Sukurti vieną tekstinį input elementą ir vieną div elementą.
 // Rašant tekstą į input elementą, tas pats tekstas atsikartojamas ir div elemente;
 
-console.log("----- d užduotis - Juokute -----");
+// console.log("----- d užduotis - Juokute -----");
 
 const sectionD = document.querySelector(".juokute-d");
 
-sectionD.style.backgroundColor = "#FFE1E0";
+// sectionD.style.backgroundColor = "#FFE1E0";
 sectionD.style.height = "130px";
 sectionD.style.display = "flex";
 sectionD.style.justifyContent = "center";
 sectionD.style.alignItems = "center";
 sectionD.style.flexWrap = "wrap";
-sectionD.style.fontFamily = '"Leckerli One", cursive';
+sectionD.style.fontFamily = 'Verdana, Geneva, Tahoma, sans-serif;';
 sectionD.style.gap = "15px";
 sectionD.style.margin = "15px";
 
@@ -26,7 +26,7 @@ inputElementD.style.boxShadow = "1px 1px 3px";
 inputElementD.style.padding = "3px 10px";
 inputElementD.style.cursor = "pointer";
 inputElementD.style.fontSize = "18px";
-inputElementD.style.fontFamily = '"Leckerli One", cursive';
+inputElementD.style.fontFamily = 'Verdana, Geneva, Tahoma, sans-serif;';
 
 const divElementD = document.querySelector(".juokute-d-div");
 
@@ -52,17 +52,17 @@ inputElementD.addEventListener("input", (_) => {
 // Į input laukelį įrašius žodį ir paspaudus “Pridėti”, žodis turi atsirasti sąraše.
 // Sąrašas visada turi būti išrūšiuotas pagal abėcėlę;
 
-console.log("----- h užduotis - Juokute -----");
+// console.log("----- h užduotis - Juokute -----");
 
 const sectionH = document.querySelector(".juokute-h");
 
-sectionH.style.backgroundColor = "#DCD6F7";
+// sectionH.style.backgroundColor = "#DCD6F7";
 sectionH.style.minHeight = "130px";
 sectionH.style.display = "flex";
 sectionH.style.justifyContent = "center";
 sectionH.style.alignItems = "center";
 sectionH.style.flexWrap = "wrap";
-sectionH.style.fontFamily = '"Leckerli One", cursive';
+sectionH.style.fontFamily = 'Verdana, Geneva, Tahoma, sans-serif;';
 sectionH.style.gap = "15px";
 sectionH.style.margin = "15px";
 
@@ -77,7 +77,7 @@ inputElementH.style.boxShadow = "1px 1px 3px";
 inputElementH.style.padding = "3px 10px";
 inputElementH.style.cursor = "pointer";
 inputElementH.style.fontSize = "18px";
-inputElementH.style.fontFamily = '"Leckerli One", cursive';
+inputElementH.style.fontFamily = 'Verdana, Geneva, Tahoma, sans-serif;';
 
 const buttonElementH = document.querySelector(".juokute-h-button");
 
@@ -93,7 +93,7 @@ buttonElementH.style.fontSize = "18px";
 buttonElementH.style.display = "flex";
 buttonElementH.style.alignItems = "center";
 buttonElementH.style.justifyContent = "center";
-buttonElementH.style.fontFamily = '"Leckerli One", cursive';
+buttonElementH.style.fontFamily = 'Verdana, Geneva, Tahoma, sans-serif;';
 
 buttonElementH.addEventListener("mouseup", (_) => {
   buttonElementH.style.transform = "scale(1.05)";
@@ -127,7 +127,7 @@ buttonElementH.addEventListener("click", (_) => {
   olElementH.style.alignItems = "left";
   olElementH.style.justifyContent = "center";
   olElementH.style.flexWrap = "wrap";
-  olElementH.style.fontFamily = '"Leckerli One", cursive';
+  olElementH.style.fontFamily = 'Verdana, Geneva, Tahoma, sans-serif;';
 
   inputElementH.value = "";
 });
