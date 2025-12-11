@@ -1,4 +1,42 @@
+#i-uzd{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#i-uzd-div1{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#i-uzd-div2{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#i-uzd-div3{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#i-uzd-bendras-div{
+    width: 250px;
+    height: 250px;
+}
+
 #j-uzd-input{
+    display: block;
     width: 300px;
     height: 60px;
     margin-bottom: 10px;
