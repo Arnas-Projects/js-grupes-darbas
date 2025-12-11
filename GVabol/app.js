@@ -1,7 +1,7 @@
-const square = document.querySelectorAll('#i-uzd-div1, #i-uzd-div2, #i-uzd-div3'); // pasirenkami i užduoties div kvadratai
+const square1 = document.querySelectorAll('#i-uzd-div1, #i-uzd-div2, #i-uzd-div3'); // pasirenkami i užduoties div kvadratai
 const selectedColor = document.querySelector('#i-uzd-bendras-div'); // pasirenkami i užduoties bendras div
 const squareColors = ['crimson', 'lightgreen', 'purple']; // kvadratų spalvų masyvas
-square.forEach((div, index) => { // kiekvienam kvadratui
+square1.forEach((div, index) => { // kiekvienam kvadratui
     div.style.backgroundColor = squareColors[index]; // priskiriama spalva iš kvadratų spalvų masyvo
     div.addEventListener('click', e => { // paspaudus ant kvadrato
         selectedColor.style.backgroundColor = getComputedStyle(e.target).backgroundColor; // duodama paspausto kvadrato spalva šalia esančiam div
