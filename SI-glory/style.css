@@ -3,7 +3,8 @@
     font-size: 60px;
     border: none;
     border-radius: 15px;
-    background: linear-gradient(145deg, #026265, #06c0ca);
+    background: #026265;
+   /* background: linear-gradient(145deg, #026265, #06c0ca);*/
     color: rgb(162, 234, 242);
     cursor: pointer;
     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
