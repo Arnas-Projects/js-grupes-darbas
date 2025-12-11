@@ -26,10 +26,6 @@ h2 {
     background-color: #dc143c70;
 }
 
-hr.line-hr {
-    border-top: 1px solid black;
-}
-
 button.arnas-b-button {
     padding: 5px 5px;
     width: 200px;
