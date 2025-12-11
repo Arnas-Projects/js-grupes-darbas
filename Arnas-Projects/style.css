@@ -1,11 +1,8 @@
 body {
-    /* background-color: #444; */
-    /* gap: 20px; */
     height: 100vh;
 }
 
 section.tasks-section {
-    /* background-color: lightsalmon; */
     margin: auto;
     width: 100%;
     max-width: 1400px;
@@ -34,7 +31,6 @@ hr.line-hr {
 }
 
 button.arnas-b-button {
-    /* margin: 10px 25px 10px 50px; */
     padding: 5px 5px;
     width: 200px;
     height: 70px;
@@ -53,7 +49,6 @@ button.arnas-b-button {
 }
 
 div.arnas-f-main-div {
-    /* background-color: lightsalmon; */
     display: flex;
     margin-top: 50px;
     margin-left: 50px;
@@ -80,5 +75,7 @@ div.arnas-f-div {
     border: 2px solid white;
     border-radius: 5px;
     background-color: #797575b8;
-    color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
 }
