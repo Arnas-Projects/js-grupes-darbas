@@ -2,7 +2,7 @@
     display: inline-flex;
     gap: 16px;
     margin: 20px 0;
-    padding-left: 40px;
+
   }
 
   .xo-widget button {
@@ -41,7 +41,7 @@
 
 
 .color-box-widget {
-  padding:40px;
+
   display: inline-block; /* kad neužimtų viso pločio */
 }
 
