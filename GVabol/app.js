@@ -1,3 +1,13 @@
+const square = document.querySelectorAll('#i-uzd-div1, #i-uzd-div2, #i-uzd-div3'); // pasirenkami i užduoties div kvadratai
+const selectedColor = document.querySelector('#i-uzd-bendras-div'); // pasirenkami i užduoties bendras div
+const squareColors = ['crimson', 'lightgreen', 'purple']; // kvadratų spalvų masyvas
+square.forEach((div, index) => { // kiekvienam kvadratui
+    div.style.backgroundColor = squareColors[index]; // priskiriama spalva iš kvadratų spalvų masyvo
+    div.addEventListener('click', e => { // paspaudus ant kvadrato
+        selectedColor.style.backgroundColor = getComputedStyle(e.target).backgroundColor; // duodama paspausto kvadrato spalva šalia esančiam div
+    });
+});
+
 const colorInput = document.querySelector('#j-uzd-input'); // pasirenkamas color tipo input tag
 const colorBox = document.querySelector('#j-uzd-div'); // pasirenkamas j užduoties div tag
 let colorChangeTimeout; // sukuriamas timeout, kad užtikrinti tikslų spalvos pavadinimą + <div> spalvą (optimizacija, kodas puikiausiai veikia ir be timeout)
